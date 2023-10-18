@@ -1,0 +1,140 @@
+/* Base Elements */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: "Orbitron", sans-serif;
+	display: grid;
+	grid-template: 1fr/1fr;
+}
+h1,
+h2,
+p {
+	color: turquoise;
+	text-align: center;
+	padding: 20px;
+}
+h2 {
+	color: darkgreen;
+	padding: 15px;
+}
+p {
+	color: white;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+h1 p {
+	padding: 20px;
+}
+img {
+	display: block;
+	margin: 15px auto;
+	width: 60%;
+	border-radius: 10%;
+}
+img[alt] {
+	color: red;
+}
+li {
+	margin: 15px auto;
+	text-align: center;
+	list-style-position: inside;
+	width: 80%;
+}
+hr {
+	border-style: dashed;
+	border-color: darkblue;
+	margin: 10px auto;
+	width: 50%;
+}
+label,
+input,
+textarea,
+button {
+	display: block;
+	padding: 3px;
+	margin: 3px auto;
+	width: 80%;
+	color: rgb(128, 128, 253);
+	color: violet;
+	/* color: darkgreen; */
+	font-weight: bold;
+}
+button {
+	font-family: "Orbitron", sans-serif;
+	background-color: black;
+	border: solid 1px violet;
+	/* border: solid 1px darkgreen; */
+	margin-top: 10px;
+}
+button:hover {
+	color: white;
+	/* border-color: darkgreen; */
+}
+
+/* Nav */
+nav {
+	text-align: center;
+}
+/* Nav Links */
+nav a {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+}
+a:link {
+	color: hotpink;
+	text-decoration: none;
+}
+a:visited {
+	color: hotpink;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration-line: underline;
+}
+a:active {
+	color: red;
+	text-decoration: none;
+}
+
+/* Header */
+
+/* Main */
+header h2 {
+	color: turquoise;
+}
+
+/* Footer */
+footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+footer p {
+	color: yellowgreen;
+	padding: 5px;
+}
+footer hr {
+	border-color: yellowgreen;
+}
+
+/* Classes */
+.profile-pic {
+	width: 150px;
+	border-radius: 50%;
+}
+.neon-border {
+	border: 3px solid hotpink;
+	border-radius: 40%;
+}
+.contact h2 {
+	padding: 5px;
+	font-size: 1.2em;
+}
