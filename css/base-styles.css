@@ -131,8 +131,8 @@ footer hr {
 	border-radius: 50%;
 }
 .neon-border {
-	border: 3px solid hotpink;
-	border-radius: 40%;
+	/* border: 3px solid darkgreen;
+	border-radius: 40%; */
 }
 .contact h2 {
 	padding: 5px;
